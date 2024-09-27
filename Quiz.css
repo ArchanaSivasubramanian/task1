@@ -1,0 +1,38 @@
+body{
+    font-family:Arial, sans-serif;
+    text-align: center;
+}
+
+.quiz-container{
+    width: 80%;
+    margin:40px auto;
+    padding:20px;
+    border: 1px solid #ddd ;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #FF0028;
+    background-color: blanchedalmond;
+}
+
+.question{
+    font-size :24px
+}
+
+.option{
+    margin-bottom: 20px;
+}
+
+.option{
+    cursor: pointer;
+    width: 45%;
+    margin:10px;
+    padding:10px;
+    border: none;
+    border-radius:10px;
+    background-color:#96c9cb ;
+    color:brown
+}
+
+.score {
+    font-size: 18px;
+    color: rgb(107, 66, 14);
+}

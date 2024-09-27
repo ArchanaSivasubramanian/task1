@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #9db827;
+    padding: 1em;
+    text-align:center;
+    
+}
+
+main {
+    display: flex;
+    flex-direction:row;
+    align-items:center;
+    padding: 5em;
+}
+
+.catalog {
+    color: #e4472bee;
+    font-size: 1.5em;
+    display:flexbox;
+    flex-wrap: wrap;
+    justify-content:right;
+    background-color: antiquewhite;
+}
+
+.catalog li {
+    margin: 20px;
+    width: 200px;
+    padding: 5em 
+}
