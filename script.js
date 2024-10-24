@@ -161,6 +161,22 @@
 // });
 
 
-function explore(){
-    alert("Welcome to the odin project website! Enjoy exploring the  resources")
-}
+// function explore(){
+//     alert("Welcome to the odin project website! Enjoy exploring the  resources")
+// }
+
+
+document.getElementById('contactForm').addEventListener('submit', function(e) {
+    e.preventDefault();
+
+    var name = document.getElementById('name').value.trim();
+    var email = document.getElementById('email').value.trim();
+    var message = document.getElementById('message').value.trim();
+
+    if (name === '' || email === '' || message === '') {
+        alert('Please fill in all fields');
+    } else {
+        alert('Thank you for contacting us, ' + name + '! We will get back to you shortly.');
+        document.getElementById('contactForm').reset();
+    }
+});

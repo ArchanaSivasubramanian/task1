@@ -426,7 +426,7 @@ button {
 
 
 
-  body{
+  /* body{
 	font-family: arial,sans-serif;
 	margin: 0;
 	padding: 0;
@@ -477,4 +477,106 @@ button {
 
   button :hover{
 	background-color: #0056B3;
-  }
+  } */
+
+
+
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+header {
+    background-color: #73d976;
+    color: white;
+    padding: 15px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+	text-align: right;
+    display: inline;
+    margin: 0 10px;
+	justify-content: space-around;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+section {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+#services, #testimonials, #featured-pets {
+    background-color: #ffffff;
+    margin-bottom: 20px;
+}
+
+.service, .testimonial, .pet {
+    margin: 20px auto;
+    max-width: 400px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #dfe61d;
+}
+
+#featured-pets .pet img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+#contactForm {
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+#contactForm label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+#contactForm input, #contactForm textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#contactForm button {
+    padding: 10px 20px;
+    background-color: rgb(22, 72, 92);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #62acb5;
+    color: rgb(218, 140, 140);
+    text-align: center;
+    padding: 10px;
+}
+
+footer p {
+    margin: 0;
+}

@@ -3,46 +3,116 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Webpage</title>
+    <title>Pawsafe care</title>
+    <link rel="stylesheet" href="styles.css">
     
 </head>
 <body>
     <header>
-        <h1>Welcome to my website</h1>
+        <h1>Pawsafe stary Pet Services & Rescue</h1>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwnn65tp4KNLMTdLVpBNWgPhTmwLlueAMlmw&s" alt="">
+        <h1>Adopt don't Shop!!</h1>
+        
         <nav>
             <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
                 <li><a href="#services">Services</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li><a href="#featured-pets">Featured Pets</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#contact">Contact Us</a></li>
             </ul>
         </nav>
     </header>
-    <section id="home">
-        <h2>Home</h2>
-        <p>a variety of content to welcome visitors, provide information, and encourage them to explore the site.</p>
-    </section>
-    <section id="about">
-        <h2>About Me</h2>
-        <p> pawdefend pvt,ltd</p>
-        <p>The moto is to reach rescue pet animals</p>
-        <p>the rescued animals left in the road will be provided a shelther.</p>
-        <p>This was a long-term planning </p>
-        <section id="services">
-            <article>
-                <h3>Service 1</h3>
-                <p>stary dogs & cats rescue</p>
-            </article>
-            <article>
-                <h3>Service 2</h3>
-                <P>Stary dog rescue</P>
-                <p></p>
-            </article>
+   <section id="services">
+    <h2>Our Services</h2>
+    <div class="service">
+        <h3>Pet Rescue</h3>
+        <p>We rescue stray animals and provide them with shelter and medical care.</p>
+    </div>
+    <div class="service">
+        <h3>Adoption</h3>
+        <p>Find loving homes for rescued pets. Check out our adoption program.</p>
+    </div>
+    <div class="service">
+        <h3>Fostering</h3>
+        <p>Become a foster parent and provide temporary homes for rescued pets.</p>
+    <div class="service">
+        <h3>Spay/Neuter</h3>
+        <p>We provide service like sterlize/neuter free for 1 year dogs </p>
 
-        </section>
+        <section id="featured-pets">
+            <h2>Featured Pets for Adoption</h2>
+            <div class="pet-gallery">
+                <div class="Pet">
+                <img src="https://pawstro.com//wp-content/uploads/2022/06/indiandog.jpg" alt="Indie">
+                <p> Caramel -3months old Street puppy</p>
+                </div>
+            <div class="Pet">
+            <img src="https://kettocdn.gumlet.io/media/campaign/303000/303180/image/5fe2e01da2820.jpeg?w=400&dpr=2.6" alt="Cat">
+            <p>Kitty- 5-months old female kitten orange shorthair</p>
+             </div>
+            </div>
+    <div class="Pet">
+       <img src="https://i.pinimg.com/474x/be/e2/03/bee203556c97ff5afae250ea013261c5.jpg" alt="Dog">
+       <p>Golden retriver - 2-year-old male dog with thick coating and long hair,fully vaccinated well trained doggy</p>
+      
+       <div class="Pet">
+        <img src="https://st4.depositphotos.com/4312829/23693/i/450/depositphotos_236933870-stock-photo-cute-little-staff-terrier-puppy.jpg" alt="">
+        <p>Indie puppy- was found on street 1 month old baby girl up for adoption.</p>
+         
+        <div class="Pet">
+            <img src="https://g.petango.com/photos/101/637f9733-d798-4089-abdb-33b8601359da.jpg" alt="">
+            <p>kitten- 1 year old kitten was rescued and given shelter</p>
+        </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+   </section> 
+ <section id="testimoninals">
+    <h2>What people are saying</h2>
+      <div class="Testimonials">
+        <p>"Stary Pet Services helped us find the perfect addition to our family. The staff was so helpful and caring!"</p>
+        <span>- john</span>
+      
+    </div>
+ <div class="Testimonial">
+    <p>"I've fostered two dogs through their foster program. It's a rewarding experience, and the team supports you every step of the way."</p>
+    <span>- joey</span>
+ </div>
+ <div class="Testimonial">
+    <p>"I was hesitant to adopt a pet, but the staff at Stary Pet Services were kind and polite.</p>
+    <span>- umesh</span>
 
+    <div class="Testimonial">
+        <p>"The support from the foster care team was amazing! They provided resources and guidance every step of the way, making my first fostering experience a breeze"</p>
+        <span>- rahul</span>
+    </div>
 
-    </section>
+ </div>
 
+ </section>
+
+ <section id="contact">
+    <h2>Contact Us</h2>
+ <form id="contactForm">
+    <label for="name">Name</label>
+    <input type="text" id="name" name="name" required>
+    
+    <label for="email">Email</label>
+    <input type="email" id="email" name="email" required>
+
+    <label for="message">Message</label>
+    <textarea id="message" name="message" required></textarea>
+
+    <button type="submit">Send Message</button>
+
+ </section> 
+ 
+ </form>
+ <footer>
+    <p>&copy ; 2024 Pawsafe stary Pet Services & Rescue</p>
+ </footer>
+ <script  src="script.js"></script>
 </body>
 </html>
